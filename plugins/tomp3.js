@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     quoted: m, mimetype: 'audio/mp4'
   })
 }
-handler.help = ['tomp3']
+handler.help = ['mp3']
 handler.tags = ['General']
 
 handler.command = /^(tomp3|mp3)$/i
